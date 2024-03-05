@@ -33,6 +33,7 @@
     align-items: center;
     padding: 10px;
     color: black;
+    box-shadow: inset 0 0 5px;
 }
 
 .main_buttons {
@@ -44,10 +45,33 @@
     align-items: center;
     margin: 0;
     padding: 0;
+    padding-right: 40px;
 }
 
-.main_buttons li {
+.main_buttons li a{
+    display: block;
     padding: 10px;
+    border-radius: 50px;
+    width: 150px;
+    text-decoration: none;
+    color: black;
+    background-color: #E6C26A;
+    box-shadow: 0 1px 5px #53514d;
+}
+
+.main_buttons li a:active{
+    display: block;
+    padding: 10px;
+    border-radius: 50px;
+    width: 150px;
+    text-decoration: none;
+    color: black;
+    background-color: #E6C26A;
+    box-shadow: 0 0 #53514d;
+}
+
+.main_buttons li{
+    text-align: center;
 }
 
 .home_link {
@@ -59,8 +83,13 @@
 
 .center {
     position: relative;
-    top: 10px;
+    top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.skills_cover {
+    background-color: #635666;
+    height: 100vh;
 }
