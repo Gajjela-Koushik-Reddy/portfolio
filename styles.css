@@ -286,3 +286,24 @@ body > section:nth-child(1) > div.cover_page > div > div > h1:nth-child(2) {
     background-position: -7.5px;
   }
 
+  /* footer */
+
+  .page_footer {
+    background-color: #635666;
+    text-align: center;
+  }
+
+  .page_footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .page_footer li {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
