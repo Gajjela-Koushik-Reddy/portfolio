@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .cover_page {
     height: 100vh;
     background-color: #635666;
@@ -195,7 +199,7 @@ body > section:nth-child(1) > div.cover_page > div > div > h1:nth-child(2) {
     font-family: "Bungee Shade", sans-serif;
     font-size: 70px;
     padding-left: 5%;
-    margin-top: 2.5%;
+    margin-top: 2%;
   }
 
   .skills_container ul {
@@ -208,15 +212,77 @@ body > section:nth-child(1) > div.cover_page > div > div > h1:nth-child(2) {
     width: fit-content;
   }
 
-  .skills_container {
-    margin-top: 20px;
-  }
-
   .skills_container li {
     margin-left: 3%;
     margin-right: 3%;
-
   }
 
+  .projects {
+    /* height: 100vh; */
+    background-color: #6AE6BB;
+    padding-bottom: 2%;
+  }
 
+  /* Card */
+
+  .card {
+    background-color: #FFFFFF;
+    width: 70%;
+    margin-top: 2%;
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+  .card_container {
+    /* width: 70%; */
+    display: flex;
+    align-items: center;
+  }
+
+  .card_image {
+    height: 300px;
+    width: 300px;
+    background-color: #F0E1F3;
+    display: inline-block;
+    border-radius: 50px;
+  }
+
+  .card_info {
+    display: inline-block;
+    width: 65%;
+    margin-left: 2%;
+  }
+
+  .card_info h4 {
+    font-size: 36px;
+    margin-top: 10px;
+  }
+
+  .card_info p {
+    font-size: 20px;
+  }
+
+  .card_info span {
+    font-weight: bold;
+  }
+
+  .left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 5%;
+  }
+
+  .right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 5%;
+  }
+
+  .snapnfix {
+    background-image: url("./assets/snanfix.png");
+    background-size: cover;
+    background-position: -7.5px;
+  }
 
