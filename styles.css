@@ -90,11 +90,6 @@
     justify-content: center;
 }
 
-.skills_cover {
-    background-color: #635666;
-    height: 100vh;
-}
-
 .main_image {
     position: absolute;
     top: 220px;
@@ -115,7 +110,7 @@
     padding-left: 10%;
 }
 
-.cover_page_text_container h1 {
+h1 {
     font-family: "Bungee Shade", sans-serif;
     font-size: 100px;
     font-weight: 400;
@@ -166,7 +161,8 @@ body > section:nth-child(1) > div.cover_page > div > div > h1:nth-child(2) {
     }
   }
 
-  /* Work in progress */
+  /* Start Work in progress */
+
   @keyframes wip_blink {
     0% { opacity: 1; }
     50% { opacity: 0; }
@@ -179,9 +175,48 @@ body > section:nth-child(1) > div.cover_page > div > div > h1:nth-child(2) {
     animation: wip_blink 1.5s infinite;
   }
 
-  .skills_cover {
+  .build_cover {
+    background-color: #000;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+/* End */
+
+  .skills_cover {
+    background-color: #635666;
+    height: 100vh;
+    color: white;
+  }
+
+  .skills_cover p {
+    font-family: "Bungee Shade", sans-serif;
+    font-size: 70px;
+    padding-left: 5%;
+    margin-top: 2.5%;
+  }
+
+  .skills_container ul {
+    margin-left: 5%;
+    margin-top: 1%;
+    padding-right: 20%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+  }
+
+  .skills_container {
+    margin-top: 20px;
+  }
+
+  .skills_container li {
+    margin-left: 3%;
+    margin-right: 3%;
+
+  }
+
+
 
